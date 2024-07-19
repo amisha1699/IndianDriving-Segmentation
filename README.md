@@ -74,15 +74,19 @@ transform = A.Compose([
 ])
 ```
 
-5. Data Loaders
-Creatimg data loaders for train, validation, and test splits using PyTorch and resizing the images to `512 x 512` during preprocessing from the original `1920 x 1080`.
+5. Data Loaders:
 
-6. Train Model
+Creating data loaders for train, validation, and test splits using PyTorch and resizing the images to `512 x 512` during preprocessing from the original `1920 x 1080`.
+
+6. Train Model:
+
 Load and train the fcn_resnet50 model using pre-trained network weights. Defining loss function and optimizer.
 
-7. Tensor Board Visualization
+7. Tensor Board Visualization:
+
 Visualizing the loss curves and mean IoU on TensorBoard for better insights into the training process.
 
-8. Model Evaluation
+8. Model Evaluation:
+
 Evaluating the model's performance on the test set through metrics such as pixel-wise accuracy, F1-Score, and IoU.
 Calculating Precision, Recall, and Average Precision (AP) by using IoUs spanning from 0 to 1, with intervals of 0.1.
