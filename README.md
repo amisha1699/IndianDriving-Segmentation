@@ -1,6 +1,6 @@
 # IndianDriving-Segmentation
 
-This project is focused on semantic segmentation using the Indian Driving Dataset. The primary objective is to fine-tune a pre-trained segmentation model [fcn_resnet50] (https://pytorch.org/vision/main/models/generated/torchvision.models.segmentation.fcn_resnet50.html) and assess its performance across multiple metrics. The project encompasses data preprocessing, model training, visualizing loss curves and mean IoU with TensorBoard, and presenting the class-wise performance of the test set based on pixel-wise accuracy, F1-Score, and IoU (Intersection Over Union).
+This project is focused on semantic segmentation using the Indian Driving Dataset. The primary objective is to fine-tune a pre-trained segmentation model [fcn_resnet50](https://pytorch.org/vision/main/models/generated/torchvision.models.segmentation.fcn_resnet50.html) and assess its performance across multiple metrics. The project encompasses data preprocessing, model training, visualizing loss curves and mean IoU with TensorBoard, and presenting the class-wise performance of the test set based on pixel-wise accuracy, F1-Score, and IoU (Intersection Over Union).
 
 ## Dataset
 The Indian Driving Dataset (IDD) contains images and their corresponding segmentation masks. The dataset is divided into three splits: train, validation, and test.
@@ -8,7 +8,7 @@ The Indian Driving Dataset (IDD) contains images and their corresponding segment
 ## Flow of Project
 
 1. Downloading the dataset
-* Visit the [IDD] (https://idd.insaan.iiit.ac.in/) Website and download the dataset. The dataset is also available in `data/IDDCLEAN` folder.
+* Visit the [IDD](https://idd.insaan.iiit.ac.in/) Website and download the dataset. The dataset is also available in `data/IDDCLEAN` folder.
 
 2. Unizip the dataset 
 ```
